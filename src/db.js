@@ -4,7 +4,7 @@
  */
 
 import "dotenv/config";
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient } from "../generated/prisma/client/index.js";
 import { PrismaMariaDb } from "@prisma/adapter-mariadb";
 
 /**
